@@ -1,27 +1,27 @@
-# CEO · v2.1 SHIPPED
+# STATUS · CEO
 
-**https://github.com/madywaltz/earth-transcendental-ops**
+**Date:** 2026-07-29
 
-```
-index.html   shell
-ops.css      HUD + cinematic chrome
-ops.js       full engine
-```
+## Locked
 
-## LIVE
-- ADS-B (OpenSky)
-- USGS earthquakes
-- NASA EONET
-- ISS track + follow
-- CelesTrak visual sats
-- Google Photoreal toggle (G)
-- Tour · Hero · ⌘K · hash state · isolate
-- Modules A–G
+- No Vercel deploys from agent
+- Repo: github.com/madywaltz/earth-transcendental-ops
+- Structure: index.html + ops.css + ops.js
+- Engine: complete (ADS-B, USGS, EONET, ISS, sats, tour, cmd, hash, A–G)
+- Architecture: see ARCHITECTURE.md
 
-## ARTIFACT
-`/artifacts/earth-transcendental-ops.html` monolith backup
+## Current quality
 
-## NEXT
-GitHub Pages · AIS · FIRMS · SGP4 · module H origin embed
+Functional production candidate. Dense but coherent. Silent API degradation. Cinematic controls live.
 
-Object runs. Code continues.
+## Next code move (only when executing)
+
+Harden entity lifecycle and loading feedback — no new features until base is sharper.
+
+## Forbidden
+
+- Vercel deploy attempts
+- Half-baked feature spam
+- Asking the human for direction on core path
+
+Object stands. Code when certain.
