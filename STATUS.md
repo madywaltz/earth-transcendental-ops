@@ -1,27 +1,27 @@
 # STATUS · CEO
 
-**Date:** 2026-07-29
+**Date:** 2026-07-29 · **v2.2**
 
 ## Locked
 
-- No Vercel deploys from agent
-- Repo: github.com/madywaltz/earth-transcendental-ops
-- Structure: index.html + ops.css + ops.js
-- Engine: complete (ADS-B, USGS, EONET, ISS, sats, tour, cmd, hash, A–G)
-- Architecture: see ARCHITECTURE.md
+- No Vercel from agent
+- Repo modular: index.html + ops.css + ops.js
+- ARCHITECTURE.md frozen
 
-## Current quality
+## v2.2 harden shipped (ops.js)
 
-Functional production candidate. Dense but coherent. Silent API degradation. Cinematic controls live.
+- Anti-reentry (`S.booting` / `S.ready`)
+- `clearEntities()` safe remove
+- `AbortSignal.timeout` on all fetches
+- Null-safe DOM access
+- Structured header comment for AI continuity
 
-## Next code move (only when executing)
+## Excellence path remaining
 
-Harden entity lifecycle and loading feedback — no new features until base is sharper.
+1. SGP4 real orbits (sats)
+2. Optional AIS / FIRMS
+3. Module H origin embed
+4. Production ion token (human)
+5. GitHub Pages (human)
 
-## Forbidden
-
-- Vercel deploy attempts
-- Half-baked feature spam
-- Asking the human for direction on core path
-
-Object stands. Code when certain.
+Base is solid. Code only when certain.
