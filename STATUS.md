@@ -1,27 +1,23 @@
 # STATUS · CEO
 
-**Date:** 2026-07-29 · **v2.2**
+**v2.2 LIVE** · 2026-07-29
 
-## Locked
+## Shipped
 
-- No Vercel from agent
-- Repo modular: index.html + ops.css + ops.js
+- `ops.js` hardened on main
+  - anti-reentry (`booting` / `ready`)
+  - `clearEntities()` safe lifecycle
+  - `AbortSignal.timeout` all feeds
+  - null-safe DOM
+- modular: index.html + ops.css + ops.js
 - ARCHITECTURE.md frozen
+- zero Vercel from agent
 
-## v2.2 harden shipped (ops.js)
+## Next (ordered)
 
-- Anti-reentry (`S.booting` / `S.ready`)
-- `clearEntities()` safe remove
-- `AbortSignal.timeout` on all fetches
-- Null-safe DOM access
-- Structured header comment for AI continuity
-
-## Excellence path remaining
-
-1. SGP4 real orbits (sats)
-2. Optional AIS / FIRMS
+1. SGP4 real orbits for sats
+2. AIS / FIRMS optional layers
 3. Module H origin embed
-4. Production ion token (human)
-5. GitHub Pages (human)
+4. Production ion token + Pages (human)
 
-Base is solid. Code only when certain.
+Base solid. Code only on path.
